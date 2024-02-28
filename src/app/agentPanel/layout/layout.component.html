@@ -1,0 +1,18 @@
+<div>
+  <app-sidebar></app-sidebar>
+  <div class="page-container">
+    <app-navbar></app-navbar>
+    <div class="pull-left" style="margin-top: 70px;left: 10px;position: relative;cursor: pointer;">
+      <a class="back-button" (click)="backClicked()">
+        <span>
+          <i class="c-orange-500 ti-arrow-left"></i></span>Back</a>
+    </div>
+    <main class='main-content bgc-grey-100'>
+      <div id='mainContent'>
+        <router-outlet></router-outlet>
+      </div>
+    </main>
+  </div>
+</div>
+
+<app-toasts aria-live="polite" aria-atomic="true"></app-toasts>

@@ -1,0 +1,51 @@
+<div class="sidebar">
+  <div class="sidebar-inner">
+    <div class="sidebar-logo">
+      <div class="peers ai-c fxw-nw">
+        <div class="peer peer-greed">
+          <a class="sidebar-link td-n">
+            <div class="peers ai-c fxw-nw" (click)="goDashboard()">
+              <div class="peer">
+                <div class="logo">
+                  <img src="../../../../assets/images/adrian-jimenez-shavedbarb.jpg" alt="">
+                </div>
+              </div>
+              <div class="peer peer-greed">
+                <h5 class="lh-1 mB-0 logo-text logoName">DASHBOARD PANEL</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="peer" (click)="toggleSidebar()">
+          <div class="mobile-toggle sidebar-toggle">
+            <a class="td-n">
+              <i class="ti-arrow-circle-left"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul class="sidebar-menu scrollable pos-r">
+      <li class="nav-item dropdown">
+        <a class="dropdown-toggle pointer" routerLink="/agentPanel/customer">
+          <span class="icon-holder">
+            <i class="fa fa-laptop"></i>
+          </span>
+          <span class="title ">Customer</span>
+          <span class="arrow">
+          </span>
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="dropdown-toggle pointer" routerLink="/agentPanel/invoice">
+          <span class="icon-holder">
+            <i class="fa fa-laptop"></i>
+          </span>
+          <span class="title ">Invoice</span>
+          <span class="arrow">
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

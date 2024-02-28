@@ -1,0 +1,48 @@
+.open {
+  transition: 0.2s;
+}
+
+.logo {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  img {
+    max-width: 70%;
+  }
+}
+
+.logoName {
+  font-family: "Playfair Display";
+  font-size: 1.5vw;
+  user-select: none;
+}
+
+.side-bar-active {
+  background: #ebf2f7;
+  width: 79%;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border: 2px solid #ebf2f7;
+  padding: 10px;
+  border-radius: 5px;
+
+  &:hover {
+    background: #ebf2f7 !important;
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold;
+    border: 2px solid #ebf2f7;
+    padding: 10px;
+    border-radius: 25px;
+  }
+}
+
+a {
+  &:hover {
+    background: #cee9fc !important;
+    color: rgb(0, 0, 0) !important;
+  }
+}
+
+/*******************************************************************/

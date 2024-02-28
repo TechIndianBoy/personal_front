@@ -1,0 +1,44 @@
+.leftDiv {
+  // background-image: url('assets/static/images/bg.jpg');
+  background: #f9fafb;
+}
+
+.logoDiv {
+  background: #0C2340 !important;
+  width: 120px;
+  height: 120px;
+
+  // box-shadow: 0 0 10px;
+  img {
+    border-radius: 50%;
+    max-width: 100%;
+  }
+}
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+  text-align: center
+}
+
+.centered {
+  text-align: center;
+}
+
+.centeredd {
+  text-align: center;
+  padding: 0% 1%;
+}

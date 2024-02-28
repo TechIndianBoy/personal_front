@@ -1,0 +1,351 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./assets/styles/index.scss";
+@import 'themify-icons';
+@import 'override-plugins';
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-icons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-lists/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-richtexteditor/styles/material.css';
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-new {
+  color: #45aed8 !important;
+}
+
+.jstree-default .jstree-anchor {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.configure-table {
+
+  input,
+  button {
+    font-size: 12px;
+  }
+}
+
+.form-group {
+
+  input,
+  select {
+    font-size: 14px;
+  }
+}
+
+button:focus {
+  outline: none;
+}
+
+.note {
+  font-size: 11px;
+  font-family: 'themify';
+  color: #b07575;
+}
+
+
+::placeholder {
+  font-size: 13px;
+}
+
+//scrollbar
+::-webkit-scrollbar {
+  width: 0px;
+  height: 4px;
+  /* height of horizontal scrollbar */
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.085rem rgba(0, 123, 255, 0.25);
+}
+
+.text-light-blue {
+  color: #3c8dbc !important;
+}
+
+.text-green {
+  color: #00a65a !important;
+}
+
+.nav-tabs .nav-link {
+  background-color: #e3f2fd;
+}
+
+.nav-tabs .nav-link.active {
+  color: #ffffff;
+  background-color: #1e88e5;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.error-class {
+  font-size: 80%;
+  color: #dc3545;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #b5000a;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked+.slider {
+  background-color: green;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(19px);
+  -ms-transform: translateX(19px);
+  transform: translateX(19px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  display: none;
+}
+
+
+.total {
+  background: linear-gradient(-20deg, black, transparent);
+  color: #ffffff;
+  border-radius: 15px;
+
+}
+
+.f-Btn {
+  .btn {
+    margin-top: 4px
+  }
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.margin-left {
+  margin-left: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.margin-right {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 12.5%;
+}
+
+.img-fluid1 {
+  max-width: 50%;
+}
+
+.btn-round {
+  border-radius: 50%;
+  margin: 0 13px;
+}
+
+.b-s {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.shadowC {
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.invalid-feedbacks {
+  font-size: 12px;
+  font-weight: 400;
+  color: #b5000a;
+}
+
+.date-as-input {
+  .popover__wrapper {
+    .py-4 {
+      padding: 0 !important;
+      padding-top: 0 !important;
+    }
+
+  }
+
+}
+
+
+.common-templete-wrapper {
+  height: 620px;
+  width: 420px;
+  overflow: scroll;
+  padding: 4%;
+  border-radius: 16px;
+  // margin-top: 10%;
+  background-color: linear-gradient(#21272D, #000);
+  background: linear-gradient(#21272D, #000);
+  border: 20px solid #000;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+
+  .inner-html-text {
+    .point-detail {
+      color: #fff;
+      text-align: center;
+      font-weight: 600;
+      font-size: 16px;
+
+      span {
+        color: #27AE60;
+      }
+    }
+
+    .program-images {
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .intraction {
+      p {
+        color: #fff;
+        background: #27AE60;
+        padding: 3% 5%;
+        border-radius: 50px;
+        font-size: 15px;
+        text-align: center;
+      }
+    }
+
+    .intraction-view {
+      p {
+        color: #fff;
+        background: #27AE60;
+        padding: 4% 8%;
+        border-radius: 50px;
+        font-size: 13px;
+        text-align: center;
+      }
+
+    }
+
+    .heading-wrapper {
+      padding: 5% 0;
+
+      p {
+        color: #A38152;
+        font-size: 31px;
+        font-weight: 600;
+      }
+    }
+
+    .intraction-wrapper {
+      padding: 2% 3%;
+      display: flex;
+
+      p {
+        font-size: 18px;
+        color: #fff;
+      }
+
+      span {
+        font-size: 36px;
+        color: #fff;
+        display: block;
+        margin-right: 5%;
+      }
+    }
+
+    .common-border {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .program-images {
+      display: flex;
+
+      div {
+        width: 50%;
+        padding: 4% 2%;
+
+        p {
+          color: #fff;
+          text-align: center;
+          font-size: 13px;
+          padding: 2%;
+        }
+      }
+    }
+
+    .instructImg {
+      max-width: 50%;
+    }
+
+    .imgFix {
+      display: flex !important;
+      justify-content: center !important;
+      text-align: center !important;
+    }
+
+
+  }
+}
